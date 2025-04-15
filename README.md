@@ -10,7 +10,7 @@ System with Ubuntu 20.04 or later with at least 4 CPU cores, atleast 1 GPU, 64GB
      ```
    - If pip **is installed**, you should see an output similar to:
      ```console
-     ppara014@dragon:~/CDMA_Folder/Code$ pip --version
+     ppara014@dragon:~/ESPFormer$ pip --version
      pip 24.0 from /usr/lib/python3.12/site-packages/pip (python 3.12)
      ```
    - If pip is installed, you can skip to step 3.
@@ -29,7 +29,7 @@ System with Ubuntu 20.04 or later with at least 4 CPU cores, atleast 1 GPU, 64GB
      ```
    - If `venv` **is available**, you should see an output similar to:
      ```console
-     ppara014@dragon:~/CDMA_Folder/Code$ python3 -m venv --help
+     ppara014@dragon:~/ESPFormer$ python3 -m venv --help
      usage: venv [-h] [--system-site-packages] [--symlinks | --copies] [--clear] [--upgrade] [--without-pip] [--prompt PROMPT] [--upgrade-deps] ENV_DIR [ENV_DIR ...]
 
      Creates virtual Python environments in one or more target directories.
@@ -81,8 +81,8 @@ System with Ubuntu 20.04 or later with at least 4 CPU cores, atleast 1 GPU, 64GB
 8. **Download the Repository**:
    - Clone the repository to your local machine and navigate to the project directory by running:
      ```sh
-     git clone https://github.com/pcdslab/UtilLLM_EPS.git
-     cd UtilLLM_EPS
+     git clone https://github.com/pcdslab/ESPFormer.git
+     cd ESPFormer
      ```
    - For more information, see [managing repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
 
